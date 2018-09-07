@@ -222,6 +222,18 @@
     <Compile Include="Migrations\201809071132430_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>201809071132430_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809071303589_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\201809071303589_AddNameToMembershipType.Designer.cs">
+      <DependentUpon>201809071303589_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809071316280_SetNameOfMembershipTypes.cs" />
+    <Compile Include="Migrations\201809071316280_SetNameOfMembershipTypes.Designer.cs">
+      <DependentUpon>201809071316280_SetNameOfMembershipTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809071329381_AddBirthDateToCustomer.cs" />
+    <Compile Include="Migrations\201809071329381_AddBirthDateToCustomer.Designer.cs">
+      <DependentUpon>201809071329381_AddBirthDateToCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -331,6 +343,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201809071132430_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>201809071132430_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809071303589_AddNameToMembershipType.resx">
+      <DependentUpon>201809071303589_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809071316280_SetNameOfMembershipTypes.resx">
+      <DependentUpon>201809071316280_SetNameOfMembershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809071329381_AddBirthDateToCustomer.resx">
+      <DependentUpon>201809071329381_AddBirthDateToCustomer.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
